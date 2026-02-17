@@ -1,0 +1,18 @@
+2026-02-17 23:50:22,613 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-17 23:50:22,661 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-17 23:50:22,871 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-17 23:50:22,941 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-17 23:50:23,580 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-17 23:50:24,114 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-17 23:50:24,124 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
