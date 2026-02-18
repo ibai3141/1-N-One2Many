@@ -16,3 +16,378 @@
 	Maximum pool size: 5
 2026-02-17 23:50:24,114 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2026-02-17 23:50:24,124 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:36:48,039 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:36:48,109 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:36:48,552 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:36:48,643 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:36:49,439 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:36:49,979 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:36:49,987 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:36:50,282 [main] ERROR es.ciudadescolar.servicio.ClienteService - error durante el alta del cliente org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Cliente'
+2026-02-18 23:36:50,285 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha hecho rollback
+2026-02-18 23:36:50,285 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:37:28,375 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:37:28,411 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:37:28,587 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:37:28,629 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:37:29,195 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:37:29,625 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:37:29,631 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:37:29,841 [main] ERROR es.ciudadescolar.servicio.ClienteService - error durante el alta del cliente org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Cliente'
+2026-02-18 23:37:29,844 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha hecho rollback
+2026-02-18 23:37:29,845 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:39:05,372 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:39:05,546 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:39:06,236 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:39:06,472 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:39:09,387 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:39:11,491 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:39:11,540 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:46:09,046 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:46:09,084 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:46:09,342 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:46:09,410 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:46:10,104 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:46:11,035 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:46:11,043 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:46:11,391 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.mail,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.mail=?
+2026-02-18 23:46:11,399 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:46:11,409 [main] WARN  org.hibernate.orm.jdbc.error             - HHH000247: ErrorCode: 1054, SQLState: 42S22
+2026-02-18 23:46:11,410 [main] WARN  org.hibernate.orm.jdbc.error             - Unknown column 'c1_0.mail' in 'field list'
+2026-02-18 23:46:11,413 [main] ERROR es.ciudadescolar.servicio.ClienteService - error durante el alta del cliente JDBC exception executing SQL [Unknown column 'c1_0.mail' in 'field list'] [select c1_0.id,c1_0.mail,c1_0.nombre from cliente c1_0 where c1_0.mail=?]
+2026-02-18 23:46:11,415 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha hecho rollback
+2026-02-18 23:46:11,416 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:48:20,372 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:48:20,403 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:48:20,591 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:48:20,633 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:48:21,249 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:48:21,993 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:48:22,000 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:48:22,323 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:48:22,329 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:48:22,347 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:48:22,350 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:48:28,776 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:48:28,808 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:48:28,976 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:48:29,020 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:48:29,582 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:48:30,324 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:48:30,331 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:48:30,642 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:48:30,648 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:48:30,664 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:48:30,666 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:51:13,905 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:51:13,938 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:51:14,117 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:51:14,162 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:51:14,744 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:51:15,537 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:51:15,545 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:51:15,894 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:51:15,901 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:51:15,916 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:51:15,919 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:53:09,862 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:53:09,895 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:53:10,083 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:53:10,126 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:53:10,739 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:53:11,532 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:53:11,539 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:53:11,856 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:53:11,862 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai<@gmail.com]
+2026-02-18 23:53:11,876 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:53:11,879 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:53:25,166 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:53:25,198 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:53:25,365 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:53:25,407 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:53:25,972 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:53:26,734 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:53:26,741 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:53:27,044 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:53:27,051 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibaiasda@gmail.com]
+2026-02-18 23:53:27,064 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:53:27,067 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:56:08,972 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:56:09,004 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:56:09,173 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:56:09,214 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:56:09,774 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:56:10,565 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:56:10,572 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:56:10,912 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:56:10,918 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibaiasda@gmail.com]
+2026-02-18 23:56:10,931 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:56:10,934 [main] ERROR es.ciudadescolar.servicio.ClienteService - error durante el alta del cliente Cannot invoke "es.ciudadescolar.dominio.modelo.Cliente.toString()" because "nuevoCliente" is null
+2026-02-18 23:56:10,935 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:58:24,229 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:58:24,261 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:58:24,430 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:58:24,475 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:58:25,088 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:58:25,862 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:58:25,869 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:58:26,169 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:58:26,176 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:58:26,209 [main] DEBUG org.hibernate.SQL                        - 
+    [34minsert[0m 
+    [34minto[0m
+        cliente
+        (email, nombre) 
+    [34mvalues[0m
+        (?, ?)
+2026-02-18 23:58:26,212 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:58:26,212 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (2:VARCHAR) <- [ibai]
+2026-02-18 23:58:26,249 [main] DEBUG es.ciudadescolar.servicio.ClienteService - se ha dado de alta a Cliente [id=2, name=ibai, mail=ibai@gmail.com]
+2026-02-18 23:58:26,265 [main] DEBUG es.ciudadescolar.servicio.ClienteService - Cliente [id=2, name=ibai, mail=ibai@gmail.com]
+2026-02-18 23:58:26,265 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:58:33,660 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:58:33,692 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:58:33,867 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:58:33,912 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:58:34,481 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:58:35,232 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:58:35,240 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:58:35,562 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:58:35,569 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:58:35,586 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:58:35,595 [main] ERROR es.ciudadescolar.servicio.ClienteService - error durante el alta del cliente Cannot invoke "es.ciudadescolar.dominio.modelo.Cliente.toString()" because "nuevoCliente" is null
+2026-02-18 23:58:35,596 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em
+2026-02-18 23:59:13,240 [main] DEBUG es.ciudadescolar.util.JPAUtil            - creando pool de conexiones...
+2026-02-18 23:59:13,272 [main] DEBUG org.jboss.logging                        - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2026-02-18 23:59:13,443 [main] INFO  org.hibernate.orm.jpa                    - HHH008540: Processing PersistenceUnitInfo [name: PersistenciaUsuarios]
+2026-02-18 23:59:13,486 [main] INFO  org.hibernate.orm.core                   - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-18 23:59:14,045 [main] INFO  org.hibernate.orm.connections.pooling    - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3333/elcorteingles?useSSL=false]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database dialect: MySQLDialect
+	Database version: 8.0.41
+	Default catalog/schema: elcorteingles/undefined
+	Autocommit mode: true
+	Isolation level: REPEATABLE_READ
+	JDBC fetch size: none
+	Pool: HikariCPConnectionProvider
+	Minimum pool size: 2
+	Maximum pool size: 5
+2026-02-18 23:59:14,809 [main] INFO  org.hibernate.orm.core                   - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18 23:59:14,816 [main] DEBUG es.ciudadescolar.util.JPAUtil            - Nueva conexión del pool solicitada
+2026-02-18 23:59:15,128 [main] DEBUG org.hibernate.SQL                        - 
+    [34mselect[0m
+        c1_0.id,
+        c1_0.email,
+        c1_0.nombre 
+    [34mfrom[0m
+        cliente c1_0 
+    [34mwhere[0m
+        c1_0.email=?
+2026-02-18 23:59:15,135 [main] TRACE org.hibernate.orm.jdbc.bind              - binding parameter (1:VARCHAR) <- [ibai@gmail.com]
+2026-02-18 23:59:15,152 [main] INFO  es.ciudadescolar.servicio.ClienteService - este usuario ya esta dado de alta
+2026-02-18 23:59:15,161 [main] INFO  es.ciudadescolar.servicio.ClienteService - se ha cerrado el em

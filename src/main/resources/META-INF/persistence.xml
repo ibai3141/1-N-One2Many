@@ -12,7 +12,7 @@
 -->
 
 <!-- Aquí debemos indicar las clases a persistir que dispondrán de las correspondientes anotiaciones JPA -->
-<class></class>
+<class>es.ciudadescolar.dominio.modelo.Cliente</class>
 <class></class>
 
 

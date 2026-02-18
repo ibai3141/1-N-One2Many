@@ -1,7 +1,6 @@
 package es.ciudadescolar;
 
-import es.ciudadescolar.util.JPAUtil;
-import jakarta.persistence.EntityManager;
+import es.ciudadescolar.servicio.ClienteService;
 
 /*Crea un programa en Java haciendo uso de ORM Hibernate + JPA y arquitectura con separación de responsabilidades que cumpla:
 La aplicación persigue la gestión de clientes y los pedidos que realizan los clientes de El Corte Inglés.
@@ -17,7 +16,11 @@ La aplicación debe implementar la siguiente lógica:
 public class Main {
     public static void main(String[] args) {
 
-        EntityManager em = JPAUtil.getEntityManager();
+
+		ClienteService clienteService = new ClienteService();
+
+
+		clienteService.altaCliente("ibai", "ibai@gmail.com");
         
     }
 }
