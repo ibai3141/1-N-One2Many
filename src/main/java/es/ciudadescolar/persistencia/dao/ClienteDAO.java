@@ -43,5 +43,20 @@ public class ClienteDAO {
         return status;
     }
 
+    public Cliente findClienteByMail(String mail){
+
+        TypedQuery<Cliente> query = em.createQuery("SELECT c FROM Cliente c WHERE c.mail = : email", Cliente.class);
+
+        query.setParameter("email", mail);
+        List<Cliente> resultado = query.getResultList();
+
+        if(resultado.isEmpty()){
+            return null;
+        }else{
+            return resultado.get(0);
+        }
+        
+    }
+
 
 }

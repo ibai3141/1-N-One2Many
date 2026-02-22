@@ -1,6 +1,7 @@
 package es.ciudadescolar.dominio.modelo;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.Date;
 
 import jakarta.persistence.CascadeType;
@@ -32,20 +33,20 @@ public class Pedido implements Serializable {
     Long id;
 
     @Column(name = "fecha", nullable = false)
-    Date date;
+    LocalDate date;
 
     @Column(name = "importe", nullable = false)
     Double price;
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "cliente_id", nullable = false)
     Cliente client;
 
     public Pedido() {
     }
 
-    public Pedido( Date date, Double price, Cliente client) {
-        this.date = date;
+    public Pedido( Double price, Cliente client) {
+        this.date = LocalDate.now();
         this.price = price;
         this.client = client;
     }
@@ -58,13 +59,6 @@ public class Pedido implements Serializable {
         this.id = id;
     }
 
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
 
     public Double getPrice() {
         return price;
@@ -128,6 +122,14 @@ public class Pedido implements Serializable {
     @Override
     public String toString() {
         return "Pedido [id=" + id + ", date=" + date + ", price=" + price + ", client=" + client + "]";
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 
 }

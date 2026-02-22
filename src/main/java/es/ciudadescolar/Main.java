@@ -1,6 +1,7 @@
 package es.ciudadescolar;
 
 import es.ciudadescolar.servicio.ClienteService;
+import es.ciudadescolar.servicio.PedidoService;
 
 /*Crea un programa en Java haciendo uso de ORM Hibernate + JPA y arquitectura con separación de responsabilidades que cumpla:
 La aplicación persigue la gestión de clientes y los pedidos que realizan los clientes de El Corte Inglés.
@@ -18,9 +19,22 @@ public class Main {
 
 
 		ClienteService clienteService = new ClienteService();
+		PedidoService pedidoService = new PedidoService();
 
 
-		clienteService.altaCliente("ibai", "ibai@gmail.com");
+		//clienteService.altaCliente("ibai", "ibai@gmail.com");
+
+
+		//pedidoService.altaPedido(100, "ibai@gmail.com");
+
+		//pedidoService.eliminarPedidos("ibai@gmail.com");
+
+		//pedidoService.eliminarPedido("jsanz@empresa.es", 3L);
+
+		pedidoService.reporte();
+
+
+
         
     }
 }
